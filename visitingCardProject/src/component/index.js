@@ -54,7 +54,7 @@ export default class VisitingCardList extends React.Component{
       })
 
       return(
-        <div className="container">
+        <div className="container" style={{marginTop: '1%'}}>
           {UI}
         </div>
       )
