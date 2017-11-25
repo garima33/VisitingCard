@@ -15,4 +15,5 @@ Clone this repository to wherever you like to keep your development code then ru
 * cd VisitingCardProject
 * npm install
 * npm start
+
 Server will start at port 8080
