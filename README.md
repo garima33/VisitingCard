@@ -12,6 +12,7 @@ Node.js - Download & Install Node.js and the npm package manager.
 
 Clone this repository to wherever you like to keep your development code then run the following commands;
 
-npm install
-npm start
+* cd VisitingCardProject
+* npm install
+* npm start
 Server will start at port 8080
