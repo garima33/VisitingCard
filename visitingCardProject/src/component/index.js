@@ -23,8 +23,14 @@ export default class VisitingCardList extends React.Component{
          if(e.key.length > 1){
 
          }else{
-           newArray[index][name].value = e.target.value+e.key
-           this.setState({list: newArray})
+             if(name==='phone'&&!isNaN(e.key)){
+                 newArray[index][name].value = e.target.value+e.key
+                 this.setState({list: newArray})
+             }
+             else if(name!=='phone'){
+                  newArray[index][name].value = e.target.value+e.key
+                 this.setState({list: newArray})
+             }
          }
      }
   }
